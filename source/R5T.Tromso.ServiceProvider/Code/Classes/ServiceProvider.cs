@@ -1,14 +1,18 @@
 ﻿using System;
 
+using R5T.Tromso.Types;
+
 
 namespace R5T.Tromso.ServiceProvider
 {
     public static class ServiceProvider
     {
-        public static BuildableServiceProvider New()
+        public static IServiceBuilder<IServiceProvider> New()
         {
             var buildableServiceProvider = new BuildableServiceProvider();
-            return buildableServiceProvider;
+
+            var serviceBuilder = buildableServiceProvider.GetServiceBuilder();
+            return serviceBuilder;
         }
     }
 }

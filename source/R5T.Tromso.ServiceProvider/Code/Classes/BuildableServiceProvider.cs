@@ -4,7 +4,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 using R5T.Exeter;
-using R5T.Tromso.Types;
 
 
 namespace R5T.Tromso.ServiceProvider
