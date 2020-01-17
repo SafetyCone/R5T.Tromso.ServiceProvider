@@ -2,4 +2,8 @@ R5T.Tromso.ServiceProvider - A types library for building an IServiceProvider us
 
 Goals:
 
-* Create the easiest, simplest way to create a service provider using a Startup type.
+* Create the easiest, simplest way to create a service provider using a Startup type:
+
+using R5T.Tromso.ServiceProvider;
+
+var serviceProvider = ServiceProvider.New().UseStartup<Startup>(configurationServiceProvider);
