@@ -6,5 +6,6 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\R5T.Tromso.Startup\source\R5T.Tromso.Startup\R5T.Tromso.Startup.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Tromso.Types\source\R5T.Tromso.Types\R5T.Tromso.Types.csproj" />
   </ItemGroup>
 </Project>
